@@ -1,0 +1,10 @@
+#! /bin/bash
+# busside arvutamise skript
+reisijad=100
+bussis_kohti=40
+
+echo "$reisijad"
+echo "$bussis_kohti"
+
+bussid=$(( $reisijad / $bussis_kohti ))
+echo "$bussid"
