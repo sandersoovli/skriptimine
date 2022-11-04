@@ -1,5 +1,6 @@
 #!/bin/bash
-#echo Sisesta om  ee- ja perenimi : Sander Sooväli
+#echo Sisesta om  ees- ja perenimi : Sander Sooväli
 #echo Tere tulemast, Sander Sooväli
+read eesnimi perenimi
 #echo -n "Sisesta oma ees- ja perenimi: "
-#echo "Sinu eesnimi on $eesnimi ja perenimi on $perenimi "
+echo "Sinu eesnimi on $eesnimi ja perenimi on $perenimi"
