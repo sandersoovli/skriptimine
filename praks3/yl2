@@ -1,5 +1,4 @@
 #!/bin/bash
 #User varibale "2016"
-#User variable "Kersti Kaljulaid"
-#User variable ". aastal valiti Eesti presidendiks"
-echo " 2016. aastal "$person"  valiti Eesti presideniks"
+#User variable="Kersti Kaljulaid"=".aastal valiti Eesti presidendiks"
+echo "$2016. aastal "$person"  valiti Eesti presideniks"
