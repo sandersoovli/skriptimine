@@ -1,3 +1,4 @@
 #!/bin/bash
+#echo $eesnimi Sander ja $perenimi Sooväli
 #echo -n "Sisesta oma ees- ja perenimi: "
 #echo "Sinu eesnimi on $eesnimi ja perenimi on $perenimi "
