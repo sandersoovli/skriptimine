@@ -1,0 +1,7 @@
+#!/bin/bash
+#$aeg=`echo "scale=1;78/10" | bc`
+#$echo $aeg
+
+#$aeg_ymarda="écho "($aeg+0.9)/1" | bc`"
+#$echo $aeg_ymarda
+
