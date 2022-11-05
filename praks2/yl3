@@ -1,7 +1,6 @@
-#!/bin/bash
-$date +"%B %Y
-$date +"Calendar of %B %Y"
-$cal | tail -n 7
-$echo
-$date +"Time is %H:%M"
 
+#date +"%B %Y"
+#date +"Calendar of %B %Y"
+#cal | tail -n 7
+#echo
+#date +"Time is %H:%M"
