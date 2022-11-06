@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+echo -n "Please, give the vehicle name: "
+read rental
+
+case $rental in
+ "yacht") echo "For $rental Rs.10 per nautical mile/m";;
+ "speedboat") echo "For $rental RS.15 pre nautical mile/m";;
+ "car") echo "For $rental Rs.20 per k/m";;
+ "jeep") echo "For $rental Rs.5 per k/m";;
+ *) echo "Sorry, I can not get a $rental for you";;
+esac
