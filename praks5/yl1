@@ -1,0 +1,15 @@
+#!/bin/bash
+#test $vanuse skript if command; then kasutades
+echo " Write in your vanus: "
+read "vanus"
+if [[ "$vanus" -le "0" || "$vanus" -ge "11" ]] ; then 
+	echo " oled laps "
+elif [[ "$vanus" -gt "11" && "$vanus" -lt "18" ]] ; then
+	echo " oled nooruk "
+elif [[ "$vanus" -gt "18" && "$vanus" -lt "63" ]] ; then
+	echo " oled täiskasvanu "
+elif [[ "$vanus" -gt "63" ]] ; then
+	echo " oled senioor " 
+elif [[ else ]] ; then
+	echo " vigane sisend " 
+fi
